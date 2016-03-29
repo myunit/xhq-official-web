@@ -1,0 +1,127 @@
+﻿/* yui reset.css version;2.5.2 */
+html{color:#333;background:#fff;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;outline:none;}input,textarea,select{*font-size:100%;}legend{color:#333;}.clear{height:0;font-size:0;line-height:0;clear:both;}
+input,select{vertical-align:middle;}
+/* end of reset.css */
+
+body{
+font-size:14px;
+background:#fff;
+font-family:'微软雅黑',Tahoma,Arial,Helvetica, sans-serif;
+*font-family:'微软雅黑';
+color:#333;
+}
+a{text-decoration:none;color:#333;}
+a:hover{color:#ffa63c;}
+.clearfix{*zoom:1;}
+.clearfix:after {visibility: hidden;display: block;font-size: 0;content: " ";clear: both;height: 0;}
+
+.fl{float: left;}
+.fr{float: right;}
+
+.ui-text-12{ font-size:12px !important;}
+.ui-text-gray{ color:#888 !important;}
+.ui-text-red{ color:#ff694d !important;}
+.ui-text-green{ color:#019a01 !important;}
+
+.ui-mar-t34{ margin-top:34px;}
+
+/* sprite */
+.ui-header-home .ui-logo,
+.ui-home-btn .ui-a-IOS span,
+.ui-home-btn .ui-a-android span,
+.ui-footer-home .wrapper .ui-a-about,
+.ui-header-normal .ui-logo,
+.ui-content  .ui-promise-list h4 .ui-icon-promise{ background:url(../images/sprite.png) no-repeat;}
+
+
+
+/*--from now--*/
+
+.wrapper{width:1200px;margin:0 auto;text-align:left;}
+
+.ui-btn{ background:#019a01; color:#fff; border-radius:4px; font-size:16px; padding:0 26px;  line-height:32px; display:inline-block;}
+.ui-btn:hover{ color:#fff; background:#ffa63c;}
+
+
+
+/*首页样式*/
+.ui-header-home{ height:108px;}
+.ui-header-home .ui-logo{ background-position:0 0; width:190px; height:61px; text-indent:-9999px; margin-top:22px;}
+.ui-header-home .fr{ margin-top:58px;}
+.ui-header-home .fr .ui-btn{ margin-left:20px;}
+
+.ui-body-home{ background:url(../images/bg-home.jpg) no-repeat top center; height:612px; color:#fff; font-size:18px;}
+.ui-body-home .wrapper{ padding-left:460px;  width:740px;}
+.ui-home-title-box{ padding-top:119px; font-size:49px; color:#fff;}
+.ui-home-title-box span{ display:inline-block; vertical-align:middle;}
+.ui-home-title{ padding-left:16px;}
+.ui-home-btn{ padding:50px 0 27px 0;}
+.ui-home-btn a{ color:#fff; font-size:22px; padding:0 32px; line-height:60px; border:1px solid #fff; border-radius:4px; margin-right:36px; display:inline-block;}
+.ui-home-btn a span{line-height:60px; display:inline-block;}
+.ui-home-btn .ui-a-IOS span{ background-position:0 -92px; padding-left:50px;}
+.ui-home-btn a:hover{ background:rgba(0,0,0,0.1); border:1px solid rgba(0,0,0,0.1);}
+.ui-home-btn .ui-a-android span{background-position:0 -150px; padding-left:50px;}
+
+.ui-footer-home{ height:180px; background:#f1f1f1;}
+.ui-footer-home .wrapper >.fl{ padding-top:60px;}
+.ui-footer-home .wrapper .ui-a-about{ background-position:0 -223px; padding-left:26px; display:block; margin-bottom:10px; line-height:22px;}
+.ui-footer-home .wrapper .ui-a-about:hover{ color:#333;}
+.ui-footer-home .wrapper >.fr{ padding-top:55px;}
+.ui-footer-home .wrapper .ui-span-phone{ display:block; font-size:23px;}
+.ui-phone-box{ padding-right:10px;}
+.ui-phone-box span{ display:block;}
+.ui-phone-box .ui-text-gray{ padding-top:10px;}
+
+/*使用流程页面样式*/
+.ui-header-normal{ background:#019a01; height:87px;}
+.ui-header-normal .ui-logo{ background-position:-86px -756px; width:127px; height:44px; text-indent:-9999px; margin-top:22px;}
+.ui-header-normal .fr{ margin-top:28px;}
+.ui-header-normal .ui-btn{ background:#fff; color:#333;}
+.ui-header-normal .ui-btn:hover,.ui-header-normal .ui-btn.on{background:#ffa63c; color:#fff;}
+
+.ui-body-normal{ padding:36px 0 56px 0;}
+.ui-body-normal h2{ font-size:20px; border-bottom:2px solid #019a01; margin-bottom:20px; padding-bottom:10px;}
+.ui-body-normal .ui-nav-sidebar{ width:182px; margin-right:28px;}
+.ui-body-normal .ui-nav-sidebar li a{ display:block; line-height:38px; text-align:center; background:#019a01; color:#fff; font-size:16px; margin-bottom:8px;}
+.ui-body-normal .ui-nav-sidebar li a:hover,.ui-body-normal .ui-nav-sidebar li.on a{ background:#ffa63c;}
+
+.ui-content{ width:928px; background:#f4f4f4; border:1px solid #ececec; padding:30px; text-align:center;}
+.ui-content h3,.ui-content h4{ font-weight:bold; }
+.ui-content h3{ font-size:24px; padding-bottom:16px;}
+.ui-content .ui-tips{ text-align:left; border:1px dashed #b0b0b0; border-radius:4px; padding:20px 40px;}
+.ui-content .ui-tips h4{ color:#ffa63c; font-size:16px; margin-top:0;}
+.ui-content h4{ color:#019a01; font-size:20px; padding-bottom:10px; margin-top:66px;}
+.ui-content .ui-tips p{ font-size:14px;}
+.ui-content p{ padding-bottom:26px; font-size:16px;}
+.ui-content p.ui-p-multi-lines{ width:368px; font-size:14px; margin:0 auto; text-align:left;}
+
+.ui-content .ui-content-normal{ text-align:left; font-size:14px; padding:0 20px;}
+.ui-content .ui-content-normal h4{ font-size:16px; color:#333;}
+
+.ui-content .ui-content-rule h4{ margin:20px 0;}
+.ui-content .ui-content-rule p{ text-indent:30px;}
+
+.ui-content .ui-tips-b{ padding:6px 0; text-align:center; font-size:14px;}
+
+.ui-content  .ui-promise-list{ text-align:left; padding-top:56px; margin-left:-68px;}
+.ui-content  .ui-promise-list li{ float:left; width:260px; margin-left:68px;}
+.ui-content  .ui-promise-list li.ui-min-height{ min-height:210px;}
+.ui-content  .ui-promise-list h4 .ui-icon-promise{ width:48px; height:48px; display:inline-block; vertical-align:middle; margin-right:12px;}
+.ui-content  .ui-promise-list h4 .ui-icon-1{ background-position:0 -264px;}
+.ui-content  .ui-promise-list h4 .ui-icon-2{ background-position:0 -354px;}
+.ui-content  .ui-promise-list h4 .ui-icon-3{ background-position:0 -443px;}
+.ui-content  .ui-promise-list h4 .ui-icon-4{ background-position:0 -533px;}
+.ui-content  .ui-promise-list h4 .ui-icon-5{ background-position:0 -622px;}
+.ui-content  .ui-promise-list h4 .ui-icon-6{ background-position:0 -712px;}
+.ui-content  .ui-promise-list h4{ font-size:22px; margin:0 0 12px 0; color:#333; font-weight:normal;}
+.ui-content  .ui-promise-list li p{ font-size:14px; color:#666;}
+
+.ui-dl-QA{ font-size:18px; text-align:left;}
+.ui-dl-QA .ui-QA-num{ background:#fff; overflow:hidden; border-radius:50%; color:#019a01; min-width:48px; min-height:48px; text-align:center; line-height:48px; display:inline-block; vertical-align:middle; margin-right:8px;}
+.ui-dl-QA dd{ margin-left:56px; margin-bottom:30px;}
+
+.ui-footer-normal{ background:#fff; height:108px; border-top:1px solid #efefef;}
+.ui-footer-normal .wrapper >.fl{ padding-top:25px;}
+.ui-footer-normal .wrapper >.fr{ padding-top:17px;}
+
+
