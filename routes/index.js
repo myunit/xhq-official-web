@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/rule-share', function(req, res, next) {
-  res.render('rule-share', { title: '商家规则-乡货圈-家乡的味道' });
+  res.render('rule-share', { title: '分享家规则-乡货圈-家乡的味道' });
 });
 
 router.get('/flow-share', function(req, res, next) {
@@ -32,6 +32,14 @@ router.get('/flow-cash', function(req, res, next) {
 
 router.get('/flow-publish', function(req, res, next) {
   res.render('flow-publish', { title: '商品发布-乡货圈-家乡的味道' });
+});
+
+router.get('/join-share', function(req, res, next) {
+  res.render('join-share', { title: '分享家招募 - 乡货圈- 分享家乡的味道' });
+});
+
+router.get('/join-service', function(req, res, next) {
+  res.render('join-service', { title: '服务商入驻 - 乡货圈- 分享家乡的味道' });
 });
 
 module.exports = router;
